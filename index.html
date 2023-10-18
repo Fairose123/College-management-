@@ -1,16 +1,346 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <style>
-body {background-color: powderblue;}
+@-webkit-keyframes {
+}
+@-webkit-keyframes extend {
+    0% {
+        width: 600px;
+        height: 200px;
+        border-radius: 100px;
+        } 10% {
+        width: 610px;
+        height: 210px;
+        background: #fff;
+        margin-left: - 5px;
+        margin-top: - 5px;
+        } 20% {
+        width: 600px;
+        height: 200px;
+        background: #6fb07f;
+        margin-left: 0px;
+        margin-top: 0px;
+        } 100% {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 190px;
+        background: #6fb07f;
+        }
+    }
+@keyframes extend {
+    0% {
+        width: 100px;
+        height: 50px;
+        border-radius: 29px;
+        } 10% {
+        width: 100px;
+        height: 50px;
+        background: #fff;
+        margin-left: - 3px;
+        margin-top: - 3px;
+        } 20% {
+        width: 100px;
+        height: 50px;
+        background: #6fb07f;
+        margin-left: 0px;
+        margin-top: 0px;
+        } 100% {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 65px;
+        background: #6fb07f;
+        }
+    }
+@-webkit-keyframes {
+}
+@-webkit-keyframes disappear {
+    0% {
+        opacity: 1;
+        } 20% {
+        color: #fff;
+        } 100% {
+        opacity: 0;
+        }
+    }
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        } 20% {
+        color: #fff;
+        } 100% {
+        opacity: 0;
+        }
+    }
+@-webkit-keyframes {
+}
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        } 10% {
+        opacity: 0;
+        } 25% {
+        opacity: 1;
+        }
+    }
+@keyframes appear {
+    0% {
+        opacity: 0;
+        } 50% {
+        opacity: 0;
+        } 42% {
+        opacity: 1;
+        }
+    }
+html {
+    background: #fff
+    }
+
+input, button, submit {
+    border: none
+    }
+
+.cont {
+    position: center-left;
+    width: 100px;
+    height: 6px;
+    left: 10%;
+    top: 10%;
+    margin: -50px 0 0 -100px
+    }
+
+button {
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    /*border-radius*/
+    border-radius:8px;
+    background: #fff;
+    position: center-right;
+    border: 5px solid #6fb07f
+    }
+
+button > span {
+    font-size: 12px;
+    color: green
+    }
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+    }
+
+button:focus {
+    /*animation*/
+    -webkit-animation: extend 1s ease-in-out;
+    -ms-animation: extend 1s ease-in-out;
+    animation: extend 1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards
+    }
+
+button:focus > span {
+    /*animation*/
+    -webkit-animation: disappear 1s ease-in-out;
+    -ms-animation: disappear 1s ease-in-out;
+    animation: disappear 1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards
+    }
+
+button:focus > img {
+    /*animation*/
+    -webkit-animation: appear 1s ease-in-out;
+    -ms-animation: appear 1s ease-in-out;
+    animation: appear 1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards
+    }
+ 
+body {background-color:gray;}
 h1   {color: blue;}
 p    {color: red;}
 </style>
-</head>
-<body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+	<title>college management</title>
+</head>
+
+<body>
+ 
+
+	
+		<header>
+	
+
+		<h1 style="color:blue;">COLLEGE MANAGEMENT IN SAASC</h1>
+		
+		</header>
+	
+			<h3>
+				<center>|||||FEES STRUCTURE IN THE OUR COLLEGE|||||<center>
+			</h3>
+
+			
+<p>
+ 
+				<center>ADMISSION FEE:500<center>
+				<BR>
+				<center>COURSE FEE   :1200</center>
+				<br>
+			
+				AVAILABLE COURSE:
+				<br>
+				<BR>
+				        <center>BSC CS:9500</center>
+						<br>
+				
+						
+						<center>BSC IT:9500</center>
+						<br>
+						
+						
+						<center>BCOM  :8500</center>
+						<br>
+			
+						
+						<center>BA TAMIL:9000</center>
+						<br>
+					
+						<center>BA ENGLISH:8500</center>
+						<br>
+					
+				
+						<center>BSC CHEM:10000</center>
+						<br>
+			
+			
+						<center>PURE SCIEN:8500</center>
+						<br>
+		
+						
+						<center>BSC PHYSICS:12000</center>
+						<br>
+
+				
+						<center>BIOLOGY:15000</center>
+						<BR>
+                       						
+				PG COURSES:
+				<br>
+				<br>
+                          <center>MSC CS:25000</center>
+						  <br>
+					  
+                 <center>MSC IT:12000</center>
+					<BR>   
+				FEE:
+				<br>
+                 <center>ID CARD:500</center>
+					<br>
+	
+                  <center>LAB FEE:1500</center>
+					<BR>
+    <form>
+        <label for="name">Name</label>
+       <center> <input type="text" id="name" /></center>
+		<br>
+       <center> <label for="email">Email</label></center>
+       <center> <input type="email" id="email" /></center>
+		<br>
+       <center> <label for="telnum">Tel No.</label></center>
+	    <center> <input type="number" id="TELNUM" /></center>
+		<br>
+      <center>  <label for="Roll No.">Roll No.</label></center>
+       <center> <input type="number" id="rollno" /></center>
+	   <BR>
+                    <div>				
+					<button type="submit" class="btn btn-primary">
+						Submit
+					</button>
+				</form>
+			</div>
+
+    </div>
+  </div>
+</div>
+		<br>
+    </form>
+					
+				
+			</p>
+>
+			
+			<div class="carousel-item">
+				<img src="JPEG image (.jpg)"
+					class="d-block w-100" alt="COLLEGE">
+			</div>
+			<div class="carousel-item">
+				<img src="JPEG image (.jpg)"
+					class="d-block w-100" alt="COLLEGE">
+			</div>
+	
+
+	<div class="container">
+		<div class="row-flex">
+			<div class="flex-column-form">
+				<h3>
+					ADMISSION APPLY NOW.....
+				</h3>
+				<form class="media-centered">
+					<div class="form-group">
+						
+<p>
+							THE OUR COLLEGE PLACEMENT AND OPPORTUNITIES
+							<BR>
+							CULTURALS
+							<BR>
+							PROGRAMMING ORIENTATIION
+							<BR>
+							IV
+						</p>
+
+			<div class="opening-time">
+				<h3>
+					OPENING TIME IN OUR COLLEGE:
+				</h3>
+				
+<p>
+					<span>Monday—Thursday: 08:00 — 12:00</span>
+					<span>Friday—Saturday: 09:00 — 11:00 </span>
+					<span>Sunday: 10:00 — 06:00</span>
+				</p>
+
+			</div>
+			<div class="contact-address">
+				<h3>
+					Contact
+				</h3>
+				
+<p>
+					<span>8220816328</span>
+					<br>
+					<span>ITZ_ME__FAIROSEKHAN</span>
+					<br>
+					<span>RAMANATHAPURAM</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
 
 </body>
+
 </html>
